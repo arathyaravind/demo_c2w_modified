@@ -1,0 +1,54 @@
+body .btn-group-in-menu {
+	display: none;
+}
+body .box-body.table-responsive {
+	min-height: 400px;
+}
+body .button_action ul.dropdown-menu {
+	left: auto;
+	right: 0;
+}
+body .filter-group-jo {
+	width: 370px;
+    margin-top: 20px;
+    z-index: 1;
+    float: right;
+    text-align: right;
+    margin-left: 64px;
+}
+/*body .sidebar .user-panel {
+    display: none;
+}*/
+
+.letter-filter-jo {
+    text-align: left;
+    font-size: 17px;
+    margin-top: -50px;
+}
+
+.letter-filter-jo a:hover {
+    text-decoration: underline;
+}
+
+body .filter-group-jo .status-filter-jo{
+	width: auto;
+}
+
+body .status-filter-jo {
+    margin-top: -9px;
+    height: 32px;
+}
+
+.assign-btn-container {
+    z-index: 1;
+    margin-top: 20px
+}
+.btn-assign-recruiter {
+    margin-top: -9px;
+}
+.message-container {
+    padding: 20px; 
+}
+#recruiter-assign-modal .select2-container .select2-selection--single {
+    height: 34px;
+}

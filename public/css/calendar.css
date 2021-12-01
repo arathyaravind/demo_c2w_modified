@@ -1,0 +1,67 @@
+div#calendar {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+div#calendar .fc-event {
+    margin-bottom: 3px;
+}
+
+div#calendar .fc-event .fc-content {
+    /* background: aliceblue; */
+    padding: 2px 5px;
+}
+
+div#calendar .fc-event .fc-content span {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+div#calendar .fc-event .fc-content span.e-type {
+    /*background: #0f4c6b;*/
+    text-align: center;
+    padding: 2px 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0 -3px;
+    overflow: hidden;
+}
+div#calendar .fc-event .fc-content span.e-type .e-assignees {
+    float: right;
+    color: #ccf37c;
+}
+div#calendar .fc-event .fc-content span.e-jo {
+    font-weight: bold;
+    /* color: #335a63; */
+}
+
+div#calendar .fc-event.done {
+    background: #67af67e0;
+    border-color: #336433e0;
+    opacity: 0.6;
+}
+div#calendar .fc-event.done .fc-content span.e-type {
+    background: #244924e0;
+}
+div#calendar .fc-event.cancelled {
+    background: #aaa;
+    border-color: #666;
+    opacity: 0.6;
+}
+div#calendar .fc-event.cancelled .fc-content span.e-type {
+    background: #666;
+}
+
+.fc-state-highlight{
+    background-color: #fcf8e3;
+}
+input[type="date"].form-control
+ {
+      line-height: inherit;
+ }
+.fc-toolbar.fc-header-toolbar{
+    margin-bottom:0;
+}
+
